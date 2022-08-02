@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dimitri Marco</title>
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- custom style -->
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  
+    <div class="portfolio">
+        <header>  
+            <nav>
+                <h3 class="logo">Dimitri Marco</h3>
+                <svg class='menu'
+                   width="43" height="23" viewBox="0 0 43 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="1.5" x2="43" y2="1.5" stroke="white" stroke-width="3" class='menu-line'/>
+                    <line y1="11.5" x2="28" y2="11.5" stroke="white" stroke-width="3" class='menu-line'/>
+                    <line y1="21.5" x2="16" y2="21.5" stroke="white" stroke-width="3" class='menu-line'/>
+                </svg>
+
+                <div class="nav-open">
+                    <div class="contact">
+                       <h3>Contact</h3>
+                       <p>02348-234-843</p>  
+                    </div>
+
+                    <div class="social">
+                       <h3>Social</h3>
+                       <ul>
+                           <li><img src="./img/Facebook.svg" alt=""></li>
+                           <li><img src="./img/Instagram.svg" alt=""></li>
+                           <li><img src="./img/Twitter.svg" alt=""></li> 
+                       </ul>
+                    </div> 
+                </div>
+            </nav>  
+                  
+        </header>
+
+        <main>
+            <section class="page photographer">   
+                <div class="details">
+                    <h1>Elena Morell</h1>
+                    <h2>Photographer</h2>
+                    <p>24/06/2018</p>
+                </div>
+
+                <div class="hero">
+                    <a href="./photographer.html">
+                        <img src="./img/model-left.jpg" alt="" class='model-left'>
+                        <img src="./img/model-right.jpg" alt="" class='model-right'> 
+                    </a>
+                </div>     
+            </section>
+
+            <section class="page chef">
+                <div class="details">
+                    <h1>John Savos</h1>
+                    <h2>Pro Chef</h2>
+                    <p>24/06/2018</p>
+                </div>
+
+                <div class="hero">
+                    <a href="./chef.html">
+                       <img src="./img/chef-left.jpg" alt="" class='model-left'>
+                      <img src="./img/chef-right.jpg" alt="" class='model-right'> 
+                    </a>
+                    
+                </div>   
+            </section>
+
+            <section class="page hairstyle">
+                <div class="details">
+                    <h1>John Mayer</h1>
+                    <h2>Pro Stylist</h2>
+                    <p>24/06/2018</p>
+                </div>
+
+                <div class="hero">
+                    <a href="./barber.html">
+                    <img src="./img/barber-left.jpg" alt="" class='model-left'>
+                    <img src="./img/barber-right.jpg" alt="" class='model-right'> 
+                    </a>
+                   
+                </div> 
+            </section>
+
+ 
+            <ul class="dots">
+            <li class='page-1'>
+                <h3>01</h3>
+                <svg  class='slide active'
+                width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="white"/>
+                </svg>      
+            </li>
+            <li class='page-2'>
+                <h3>02</h3>
+                <svg  class='slide'
+                width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="white"/>
+                </svg>      
+            </li>
+            <li class='page-3'>
+                <h3>03</h3>
+                <svg  class='slide'
+                width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="6" cy="6" r="6" fill="white"/>
+                </svg>      
+            </li>  
+        </ul>
+        </main>
+
+    </div>
+    
+    <!-- gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js" 
+    integrity="sha512-eP6ippJojIKXKO8EPLtsUMS+/sAGHGo1UN/38swqZa1ypfcD4I0V/ac5G3VzaHfDaklFmQLEs51lhkkVaqg60Q==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src='./js/app.js'></script>
+</body>
+</html>
